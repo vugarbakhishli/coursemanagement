@@ -1,0 +1,5 @@
+rootProject.name = 'coursemanagement'
+include 'courses-ms' //8080
+include 'students-ms' // 8082
+include 'common'
+

@@ -1,0 +1,13 @@
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: full
+
+client:
+  students-ms:
+    name: students-ms
+    host: ${STUDENTS_MS_HOST:http://localhost:8082}
+    path: /students-ms
